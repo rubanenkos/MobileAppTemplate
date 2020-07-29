@@ -1,0 +1,114 @@
+<testsuite errors="0" failures="0" hostname="users-MBP.netis" name="tests.operations_test.Tests for simple operations" skipped="0" tests="8" time="46.101727" timestamp="2020-07-20T19:39:09.645635"><testcase classname="tests.operations_test.Tests for simple operations" name="User can sum numbers" status="passed" time="5.075253"><system-out>
+<![CDATA[
+@scenario.begin
+  Scenario: User can sum numbers
+    Given App is running ... passed in 0.678s
+    When Tap on Digit 2 ... passed in 1.078s
+    When Tap on Sum ... passed in 0.795s
+    When Tap on Digit 3 ... passed in 0.766s
+    When Tap on Equality ... passed in 0.747s
+    Then Result is shown and equal to 5 ... passed in 1.012s
+
+@scenario.end
+--------------------------------------------------------------------------------
+]]>
+</system-out></testcase><testcase classname="tests.operations_test.Tests for simple operations" name="User can subtract numbers" status="passed" time="4.919627"><system-out>
+<![CDATA[
+@scenario.begin
+  Scenario: User can subtract numbers
+    Given App is running ... passed in 1.074s
+    When Tap on Digit 7 ... passed in 0.529s
+    When Tap on Minus ... passed in 0.819s
+    When Tap on Digit 6 ... passed in 0.777s
+    When Tap on Equality ... passed in 0.723s
+    Then Result is shown and equal to 1 ... passed in 0.998s
+
+@scenario.end
+--------------------------------------------------------------------------------
+]]>
+</system-out></testcase><testcase classname="tests.operations_test.Tests for simple operations" name="User can divide numbers" status="passed" time="4.838507"><system-out>
+<![CDATA[
+@scenario.begin
+  Scenario: User can divide numbers
+    Given App is running ... passed in 1.137s
+    When Tap on Digit 8 ... passed in 0.461s
+    When Tap on Divide ... passed in 0.704s
+    When Tap on Digit 4 ... passed in 0.788s
+    When Tap on Equality ... passed in 0.819s
+    Then Result is shown and equal to 2 ... passed in 0.929s
+
+@scenario.end
+--------------------------------------------------------------------------------
+]]>
+</system-out></testcase><testcase classname="tests.operations_test.Tests for simple operations" name="User can multiply numbers" status="passed" time="4.954575"><system-out>
+<![CDATA[
+@scenario.begin
+  Scenario: User can multiply numbers
+    Given App is running ... passed in 0.823s
+    When Tap on Digit 5 ... passed in 0.846s
+    When Tap on Multiply ... passed in 0.722s
+    When Tap on Digit 9 ... passed in 0.780s
+    When Tap on Equality ... passed in 0.782s
+    Then Result is shown and equal to 45 ... passed in 1.002s
+
+@scenario.end
+--------------------------------------------------------------------------------
+]]>
+</system-out></testcase><testcase classname="tests.operations_test.Tests for simple operations" name="User can multiply float numbers" status="passed" time="7.234466"><system-out>
+<![CDATA[
+@scenario.begin
+  Scenario: User can multiply float numbers
+    Given App is running ... passed in 1.599s
+    When Type Digits 3.33 ... passed in 2.533s
+    When Tap on Multiply ... passed in 0.701s
+    When Tap on Digit 3 ... passed in 0.708s
+    When Tap on Equality ... passed in 0.730s
+    Then Result is shown and equal to 9.99 ... passed in 0.963s
+
+@scenario.end
+--------------------------------------------------------------------------------
+]]>
+</system-out></testcase><testcase classname="tests.operations_test.Tests for simple operations" name="User can get square root" status="passed" time="5.846843"><system-out>
+<![CDATA[
+@scenario.begin
+  Scenario: User can get square root
+    Given App is running ... passed in 0.958s
+    When Open advanced operations ... passed in 0.255s
+    When Tap on Square root ... passed in 1.094s
+    When Tap on Arrow ... passed in 0.729s
+    When Tap on Digit 9 ... passed in 1.102s
+    When Tap on Equality ... passed in 0.750s
+    Then Result is shown and equal to 3 ... passed in 0.958s
+
+@scenario.end
+--------------------------------------------------------------------------------
+]]>
+</system-out></testcase><testcase classname="tests.operations_test.Tests for simple operations" name="User can delete digits" status="passed" time="6.086368"><system-out>
+<![CDATA[
+@scenario.begin
+  Scenario: User can delete digits
+    Given App is running ... passed in 1.183s
+    When Type Digits 1234 ... passed in 2.730s
+    When Tap on DELETE ... passed in 0.730s
+    When Tap on DELETE ... passed in 0.760s
+    Then Now on the screen 12 ... passed in 0.684s
+
+@scenario.end
+--------------------------------------------------------------------------------
+]]>
+</system-out></testcase><testcase classname="tests.operations_test.Tests for simple operations" name="User can clear result screen" status="passed" time="7.146087"><system-out>
+<![CDATA[
+@scenario.begin
+  Scenario: User can clear result screen
+    Given App is running ... passed in 1.788s
+    When Tap on Digit 2 ... passed in 0.384s
+    When Tap on Sum ... passed in 1.241s
+    When Tap on Digit 3 ... passed in 0.847s
+    When Tap on Equality ... passed in 0.809s
+    When Tap on Clear ... passed in 0.858s
+    Then Screen is empty ... passed in 1.218s
+
+@scenario.end
+--------------------------------------------------------------------------------
+]]>
+</system-out></testcase></testsuite>
